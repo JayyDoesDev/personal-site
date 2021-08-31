@@ -14,10 +14,12 @@ body {
 
 
 
-.discord {
+.discord a {
     text-decoration: none;
+    color: white;
 }
 
 .antibot a {
     text-decoration: none;
+    color: white;
 }
