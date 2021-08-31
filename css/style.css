@@ -1,0 +1,23 @@
+body {
+    background-color: #36393e; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      float: inline-start;
+      position: sticky;
+      text-align: center;
+     color: white;
+     text-decoration: none;
+}
+
+.warn {
+    color: #bae1ff;
+}
+
+
+
+.discord {
+    text-decoration: none;
+}
+
+.antibot a {
+    text-decoration: none;
+}
