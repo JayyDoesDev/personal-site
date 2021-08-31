@@ -6,6 +6,10 @@ body {
       text-align: center;
      color: white;
      text-decoration: none;
+            animation: fadeInAnimation ease 8s; 
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
 }
 
 .warn {
@@ -22,4 +26,13 @@ body {
 .antibot a {
     text-decoration: none;
     color: white;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
