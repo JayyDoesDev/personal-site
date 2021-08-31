@@ -1,0 +1,14 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeInAnimation ease 4.5s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
