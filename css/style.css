@@ -12,10 +12,8 @@ body {
 
 
 
-img {
-    
-    border-radius: 100px;
-
+#pfp {
+    border-radius: 100%;
 }
 
 div:hover {
