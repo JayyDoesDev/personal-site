@@ -32,3 +32,7 @@ body {
     position: relative;
     margin-top: 20rem;
 }
+
+.container a:hover {
+    color: white;
+}
