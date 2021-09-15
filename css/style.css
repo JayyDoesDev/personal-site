@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color: #36393e;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: inline-start;
@@ -36,4 +36,72 @@ body {
 .container a:hover {
     color: white;
     font-size: 27px;
+} */
+
+body {
+    float: inline-start;
+    background-color: #12142c;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 200px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.discord-invite {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: blue;
+}
+
+.project-section {
+    text-align: center;
+}
+
+#profilepic {
+    width: 150px;
+}
+
+#about-text-title:hover {
+    color: turquoise;
+    font-size: 30px;
+}
+
+#project-text-title:hover {
+    color: turquoise;
+    font-size: 30px;
+}
+
+i {
+    font-size: 100px;
+}
+
+#languages-tools-text-title:hover {
+    color: turquoise;
+    font-size: 30px;
+}
+
+div img {
+    width: 120px;
+}
+
+#name:hover {
+    color: turquoise;
+    font-size: 40px;
+}
+
+.footer {
+    overflow: hidden;
+    font-size: 12px;
+    position: relative;
+    margin-top: 15rem;
 }
