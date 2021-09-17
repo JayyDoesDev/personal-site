@@ -1,6 +1,6 @@
 body {
     float: inline-start;
-    background-color: #12142c;
+    background-color: #1e2124;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -11,8 +11,12 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.discord-invite {
-    color: blue;
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 52px;
+    line-height: 10px;
 }
 
 a {
@@ -20,8 +24,37 @@ a {
     color: white;
 }
 a:hover {
-    color: blue;
+    color: #7289da;
 }
+
+#nodejs:hover {
+    color: green;
+}
+
+#html:hover {
+    color: lightcoral;
+}
+
+#css:hover {
+    color: lightblue;
+}
+
+#js:hover {
+    color: yellow;
+}
+
+#npm:hover {
+    color: red;
+}
+
+#github:hover {
+    color: gray;
+}
+
+.social-github:hover {
+    font-size: 100px;
+}
+
 
 .project-section {
     text-align: center;
