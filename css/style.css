@@ -1,17 +1,22 @@
 body {
-    float: inline-start;
     background-color: #1e2124;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    line-height: 23px;
-    margin-top: 200px;
+    margin: 0;
+    padding: 0;
 }
 body::-webkit-scrollbar {
     display: none;
 }
 
-li {
+.container {
+    float: inline-start;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 200px;
+}
+
+.container li {
     list-style-type: none;
     text-align: center;
     font-size: 40px;
