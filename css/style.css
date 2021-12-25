@@ -1,21 +1,26 @@
 body {
-    background-color: #1e2124;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
 }
+
 body::-webkit-scrollbar {
     display: none;
 }
 
+
 .container {
+    list-style-type: none;
     float: inline-start;
     text-align: center;
     line-height: 23px;
     margin-top: 200px;
+    margin: 100px;
 }
 
+a h2 {
+    margin: 0;
+}
 .container li {
     list-style-type: none;
     text-align: center;
@@ -24,83 +29,53 @@ body::-webkit-scrollbar {
     line-height: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-a:hover {
-    color: #7289da;
-}
-
-#nodejs:hover {
-    color: green;
+#p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
 }
 
-#html:hover {
-    color: lightcoral;
+#social-discord:hover {
+    color: #738ADB;
 }
 
-#css:hover {
-    color: lightblue;
+#social-github:hover {
+    color: #333
 }
 
-#js:hover {
-    color: yellow;
-}
-
-#npm:hover {
-    color: red;
-}
-
-#github:hover {
-    color: gray;
-}
-
-.social-github:hover {
-    font-size: 100px;
-}
-
-
-.project-section {
-    text-align: center;
-}
-
-#profilepic {
+.pfp {
     width: 140px;
     height: 130px;
 }
 
-#about-text-title:hover {
-    color: turquoise;
-    font-size: 30px;
+
+.card {
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2); 
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 19px;
 }
 
-#project-text-title:hover {
-    color: turquoise;
-    font-size: 30px;
+.backend-text {
+    opacity: 0.1;
+    margin: -10px;
 }
 
-i {
-    font-size: 100px;
-}
-
-#languages-tools-text-title:hover {
-    color: turquoise;
-    font-size: 30px;
-}
-
-div img {
-    width: 120px;
-}
-
-#name:hover {
-    color: turquoise;
-    font-size: 40px;
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
 }
 
 .footer {
     overflow: hidden;
-    font-size: 12px;
+    font-size: 17px;
     position: relative;
     margin-top: 15rem;
 }
+

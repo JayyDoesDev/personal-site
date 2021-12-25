@@ -1,0 +1,29 @@
+.Button {
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid gray;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px gray;
+}
+.Button:hover {
+    color: turquoise;
+    text-shadow: turquoise;
+    border: 1px solid turquoise;
+
+}
+.Button:active {
+	position:relative;
+	top: 1px;
+}
+
+a {
+    position:relative;
+	margin: 4px;
+}
