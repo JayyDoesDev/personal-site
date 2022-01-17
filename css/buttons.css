@@ -1,10 +1,10 @@
 .Button {
 	background-color:transparent;
 	border-radius:6px;
-	border:1px solid gray;
+	border:1px solid white;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	color:white;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
