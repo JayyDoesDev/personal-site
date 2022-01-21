@@ -1,13 +1,12 @@
 body {
     text-align: center;
     background-color:#02030E;
-    color: white;
+    color: #DFF2FD;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
-
 
 .container {
     list-style-type: none;
@@ -16,6 +15,13 @@ body::-webkit-scrollbar {
     line-height: 23px;
     margin-top: 200px;
     margin: 100px;
+}
+@font-face {
+    font-family: "Script MT Bold";
+    src: url("/utils/PixelEmulator-xq08.ttf");
+}
+#testfont {
+    font-family: "Script MT Bold";
 }
 
 a h2 {
