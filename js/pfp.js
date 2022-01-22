@@ -6,8 +6,3 @@ fetch("https://api.hyplix.com/users/discord/419958345487745035/avatar", {
         document.getElementById("pfp").setAttribute("src", data.url)
     })
 })
-
-
-
-
-
