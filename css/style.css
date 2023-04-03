@@ -1,95 +1,97 @@
 body {
-    text-align: center;
-    background-color:#02030E;
-    color: #DFF2FD;
+  text-align: center;
+  background-color: #02030e;
+  color: #dff2fd;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .container {
-    list-style-type: none;
-    float: inline-start;
-    text-align: center;
-    line-height: 23px;
-    margin-top: 200px;
-    margin: 100px;
+  list-style-type: none;
+  float: inline-start;
+  text-align: center;
+  line-height: 23px;
+  margin-top: 200px;
+  margin: 100px;
 }
 @font-face {
-    font-family: "Script MT Bold";
-    src: url("/utils/PixelEmulator-xq08.ttf");
+  font-family: "Script MT Bold";
+  src: url("/utils/PixelEmulator-xq08.ttf");
 }
 #testfont {
-    font-family: "Script MT Bold";
+  font-family: "Script MT Bold";
 }
 
 a h2 {
-    margin: 0;
+  margin: 0;
 }
 .container li {
-    list-style-type: none;
-    text-align: center;
-    font-size: 40px;
-    margin-right: 52px;
-    line-height: 10px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 52px;
+  line-height: 10px;
 }
 
 #p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 #social-discord:hover {
-    color: #738ADB;
+  color: #738adb;
 }
 
 #social-github:hover {
-    color: #333
+  color: #333;
 }
 
 #social-discord {
-    color: white;
+  color: white;
 }
 #social-github {
-    color: white;
+  color: white;
 }
 
 .pfp {
-    width: 140px;
-    height: 130px;
+  width: 140px;
+  height: 130px;
 }
 
-
 .card {
-    box-shadow: 0 10px 30px 0 gray;
-    max-width: 550px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    border-radius: 19px;
+  box-shadow: 0 10px 30px 0 gray;
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 19px;
 }
 
 .backend-text {
-    opacity: 0.40;
-    margin: -10px;
-    color: white;
+  opacity: 0.4;
+  margin: -10px;
+  color: white;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    position: relative;
+  text-decoration: none;
+  color: black;
+  position: relative;
 }
 
 .footer {
-    overflow: hidden;
-    font-size: 17px;
-    position: relative;
-    margin-top: 15rem;
+  overflow: hidden;
+  font-size: 17px;
+  position: relative;
+  margin-top: 15rem;
 }
 
+.darkmode {
+  color: #02030e;
+  background-color: #babec0;
+}
