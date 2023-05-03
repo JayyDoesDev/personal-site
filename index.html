@@ -9,72 +9,99 @@
       content="I'm a backend developer who breaks stuff."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      property="og:image"
-      content="https://cdn.discordapp.com/avatars/419958345487745035/a_c6701f53e555fffe84e2aee1223437d0.gif?size=1024"
-    />
+    <meta property="og:image" content="img/pfp.gif" />
     <meta name="theme-color" content="#FCFADE" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/moblile.css" />
-    <link rel="stylesheet" href="css/animations/fade.css" />
-    <link rel="stylesheet" href="css/buttons.css" />
-    <link rel="stylesheet" href="css/animations/rainbow.css" />
   </head>
-
   <body>
+    <!-- <ul class="nav">
+      <li class="navli"><a href="" target="_blank">Home</a></li>
+      <li class="navli"><a href="" target="_blank">Anti-Bot</a></li>
+      <li class="navli"><a href="" target="_blank">Zygote</a></li>
+    </ul>-->
     <div id="p"></div>
-    <div class="container" id="darkmode" onkeydown="">
-      <div class="card">
-        <img
-          id="pfp"
-          class="pfp"
-          src="img/current.gif"
-          alt="pfp"
-          style="border-radius: 100%; width: 128px"
-        />
-        <h2 id="rainbow_text_animated">J_DDev#9034</h2>
-        <h3 class="backend-text">Backend Developer</h3>
+    <div class="container">
+      <div class="profile">
+        <img src="img/pfp.gif" class="pfp" />
+        <h2>J_DDev#9034</h2>
+        <h3 style="color: gray">Backend Developer</h3>
+        <h3>I code stuff and watch anime</h3>
         <ul>
           <li>
             <a
               class="fab fa-github"
-              id="social-github"
               href="https://github.com/JayyDoesDev"
               target="_blank"
             ></a>
             <a
               class="fab fa-discord"
-              id="social-discord"
-              href="https://is.jddev.live/discord"
+              href="https://discord.com/users/419958345487745035"
               target="_blank"
             ></a>
           </li>
         </ul>
-        <h4>
-          Hello, I'm J_DDev and I like to watch anime, play games, and code.
-        </h4>
-        <a class="Button" href="projects.html">Projects</a>
-        <a class="Button" href="tools.html">Tools & Languages</a>
-        <a class="Button" href="https://www.youtube.com/watch?v=ub82Xb1C8os"
-          >Other</a
-        >
-        <a class="Button" href="tools.html">Tools & Languages</a>
-        <a class="Button" id="darkmodeButton" onclick="darkMode()"
-          >Light Mode</a
-        >
-        <div class="footer">
-          <h1>&copy; J_DDev</h1>
-        </div>
       </div>
+      <h4 class="tx-scroll">scroll down</h4>
     </div>
+
+    <div class="bg antibot">
+      <img
+        class="antibotlogo"
+        src="https://jaydoesdev.com/img/anti-bot.png"
+        alt="logo"
+      />
+      <h1>Anti-Bot</h1>
+      <h3>
+        A Discord bot with Auto Moderation, Auto Responders, Tags, Moderation,
+        Tickets, and more!
+      </h3>
+      <a class="antibotbutton" href="https://docs.antibot.xyz">Docs</a>
+      <a
+        class="antibotbutton"
+        href="https://discord.com/oauth2/authorize?client_id=563197357697662988&scope=bot&permissions=2617338902"
+        target="_blank"
+        >Invite</a
+      >
+      <a class="antibotbutton" href="https://discord.gg/Sw6zJM6yEm"
+        >Support Server</a
+      >
+      <a class="antibotbutton" href="https://vultrex.dev">Vultrex</a>
+      <a
+        class="antibotbutton"
+        href="https://ab.jddev.wtf/privacy-policy"
+        target="_blank"
+        >Privacy Policy</a
+      >
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script type="text/javascript" src="./js/particles.js"></script>
+    </div>
+    <div class="bg zygote">
+      <img
+        class="zygotelogo"
+        src="https://bot.zyte.cloud/img/zygote.png"
+        alt="logo"
+      />
+      <h2>Zygote</h2>
+      <h3>I'm a discord bot that shortens things!</h3>
+      <a
+        class="zygotebutton"
+        href="https://gist.github.com/JayyDoesDev/a3e7530c7be6a5f063aaeb8f148c2ab5"
+        >Docs</a
+      >
+      <a
+        class="zygotebutton"
+        href="https://discord.com/oauth2/authorize?client_id=743836163810263141&scope=bot&permissions=2147745792"
+        >invite</a
+      >
+      <a class="zygotebutton" href="https://discord.gg/hTCHE3CBNW"
+        >Support Server</a
+      >
+    </div>
+    <h1 class="copyright">&copy J_DDev</h1>
   </body>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script type="text/javascript" src="./js/particles.js"></script>
-  <script type="text/javascript" src="./js/keys.js"></script>
-  <script type="text/javascript" src="./js/pfp.js"></script>
-  <script type="text/javascript" src="./js/darkmode.js"></script>
 </html>

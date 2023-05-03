@@ -1,3 +1,5 @@
+/* Stole this from a friend with permission */
+
 particlesJS("p", {
   particles: {
     number: {
@@ -8,13 +10,13 @@ particlesJS("p", {
       },
     },
     color: {
-      value: "#F0EBFA",
+      value: "#ffffff",
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#F0EBFA",
+        color: "#000000",
       },
       polygon: {
         nb_sides: 5,
@@ -43,7 +45,7 @@ particlesJS("p", {
     line_linked: {
       enable: false,
       distance: 150,
-      color: "#F0EBFA",
+      color: "#ffffff",
       opacity: 0.4,
       width: 1,
     },
