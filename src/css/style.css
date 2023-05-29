@@ -10,7 +10,7 @@ body{
 :root{
     --color-background:#101112;
     --color-main: #202225;
-    --color-secondary: #26272b;
+    --color-secondary: #2b262b;
     --color-1: #2b2d31;
     --color-2: #36373b;
     --color-text-secondary: #aaaaaa;
@@ -144,5 +144,32 @@ body{
 @media (max-width: 560px) {
     .header iframe{
         padding-bottom: 10px;
+    }
+  }
+
+  #rainbow{
+    background: linear-gradient(
+      to right,
+      #e3e3ff,
+      #dff2fd,
+      #e2fce6,
+      #fcfade,
+      #ffeee2
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 3s infinite;
+    background-size: 400% 100%;
+  }
+  
+  @keyframes rainbow_animation{
+    0%,
+    100% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 100% 0;
     }
   }
