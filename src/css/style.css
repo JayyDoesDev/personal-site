@@ -1,0 +1,145 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    background: radial-gradient(circle, transparent 25%, var(--color-background)  26%),linear-gradient(45deg, transparent 46%, var(--color-main) 47%, var(--color-main) 52%, transparent 53%), linear-gradient(135deg, transparent 46%, var(--color-main) 47%, var(--color-main) 52%, transparent 53%);
+    background-size: 3em 3em;
+    background-color: var(--color-background);
+    opacity: 1;
+    padding-top: 3.73%;
+}
+
+:root{
+    --color-background:#101112;
+    --color-main: #202225;
+    --color-secondary: #26272b;
+    --color-1: #2b2d31;
+    --color-2: #36373b;
+    --color-text-secondary: #aaaaaa;
+    --color-text:#FFFFFF;
+    --color-footer: #494949;
+}
+::selection {
+    color: #ff5050;
+    background: #FFFFFF;
+  }
+.main{    
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: var(--color-main);
+    color: #FFF;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+}
+.header {
+    width: 90%;
+    margin: auto;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header iframe {
+    float: left;
+    padding-right: 10px;
+}
+
+.text{
+    overflow: hidden;
+    margin: auto;
+    text-align: left;
+    font-size: 25px;
+    float: left;
+}
+.btns{
+    margin: auto;
+    width: 90%;
+}
+.text-2, .text-3{
+    color: var(--color-text-secondary);
+    transition: 0.1s ease-in-out;
+}
+.text-2:hover, .text-3:hover{
+    color: var(--color-text);
+}
+.text-3{
+    margin: 0 5px;
+}
+.section2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--color-1);
+    color: var(--color-text);
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: left;
+}
+.section2-text{
+    margin: auto;
+    width: 90%;
+}
+.section2 .section2-text .antibotbutton, .zygotebutton {
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid var(--color-secondary);
+    display: inline-block;
+    cursor: pointer;
+    color: var(--color-text);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    background: var(--color-secondary);
+    position: relative;
+    margin: auto;
+    transition: 0.1s ease-in-out;
+}
+.section2 .section2-text .antibotbutton:hover, .zygotebutton:hover {
+    color: var(--color-text);
+    background: var(--color-2);
+    text-shadow: var(--color-2);
+    border: 1px solid var(--color-2);
+}
+.section2 .section2-text .antibotbutton:active, .zygotebutton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.antibot, .zygote{
+    margin: auto;
+    padding-top: 7px;
+    font-size: 30px;
+}
+.section2-text img{
+    overflow: hidden;
+    width: 50px;
+    border-radius: 50%;
+    float:left;
+    margin-right:5px;
+}
+.antibot-desc, .zygote-desc{
+    font-size:17px;
+}
+
+
+.footer{
+    color: var(--color-footer);
+
+    margin: auto;
+
+}
+.footer a{
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    transition: 0.1s ease-in-out;
+}
+.footer a:hover{
+    color: var(--color-text);
+}
+@media (max-width: 560px) {
+    .header iframe{
+        padding-bottom: 10px;
+    }
+  }
