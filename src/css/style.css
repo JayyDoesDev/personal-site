@@ -18,8 +18,8 @@ body{
     --color-footer: #494949;
 }
 ::selection {
-    color: #ff5050;
-    background: #FFFFFF;
+    color: #82C2F7;
+    background: #ffffff;
   }
 .main{    
     padding-top: 30px;
