@@ -139,7 +139,7 @@ body{
     transition: 0.1s ease-in-out;
 }
 .footer a:hover{
-    color: var(--color-text);
+    color: #82C2F7;
 }
 @media (max-width: 560px) {
     .header iframe{
