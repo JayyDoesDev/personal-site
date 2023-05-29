@@ -58,8 +58,11 @@ body{
     color: var(--color-text-secondary);
     transition: 0.1s ease-in-out;
 }
-.text-2:hover, .text-3:hover{
-    color: var(--color-text);
+.text-2:hover{
+    color:  #7289da;
+}
+.text-3:hover {
+    color: white;
 }
 .text-3{
     margin: 0 5px;
