@@ -24,7 +24,6 @@ body {
   opacity: 1;
   padding-top: 3.73%;
 }
-
 :root {
   --color-background: #101112;
   --color-main: #202225;
@@ -152,7 +151,7 @@ body {
 
 .footer {
   color: var(--color-footer);
-
+  text-align: center;
   margin: auto;
 }
 .footer a {
@@ -163,6 +162,7 @@ body {
 .footer a:hover {
   color: #82c2f7;
 }
+
 @media (max-width: 560px) {
   .header iframe {
     padding-bottom: 10px;
