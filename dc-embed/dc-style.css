@@ -1,107 +1,108 @@
 @font-face {
-    font-family: gg sans;
-    font-style: normal;
-    font-weight: 600;
-    src: url(gg-sans-600.woff2) format("woff2")
+  font-family: gg sans;
+  font-style: normal;
+  font-weight: 600;
+  src: url(gg-sans-600.woff2) format("woff2");
 }
 
 .rounded-corners:where(.astro-RKRDL5K3) {
-    --border-radius: 20px
+  --border-radius: 20px;
 }
 
 .full-banner:where(.astro-RKRDL5K3) {
-    --banner-height: 120px
+  --banner-height: 120px;
 }
 
 .theme-dark:where(.astro-RKRDL5K3) body {
-    --background: #2b2d31;
-    --color: #fff
+  --background: #2b2d31;
+  --color: #fff;
 }
 
 .theme-light:where(.astro-RKRDL5K3) body {
-    --background: white;
-    --color: #313338
+  --background: white;
+  --color: #313338;
 }
 
 .root:where(.astro-RKRDL5K3) {
-    border-radius: var(--border-radius)
+  border-radius: var(--border-radius);
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: transparent
+  margin: 0;
+  padding: 0;
+  background: transparent;
 }
 
 .root:where(.astro-RKRDL5K3) {
-    width: 340px
+  width: 340px;
 }
 
 .banner:where(.astro-RKRDL5K3) {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: var(--banner-height, 48px);
-    width: 340px;
-    object-fit: cover
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: var(--banner-height, 48px);
+  width: 340px;
+  object-fit: cover;
 }
 
 .banner:where(.astro-RKRDL5K3) :where(.astro-RKRDL5K3) {
-    position: absolute
+  position: absolute;
 }
 
 .color-banner:where(.astro-RKRDL5K3) {
-    height: 100%;
-    width: 100%
+  height: 100%;
+  width: 100%;
 }
 
-.banner:where(.astro-RKRDL5K3),.banner:where(.astro-RKRDL5K3) :where(.astro-RKRDL5K3) {
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius)
+.banner:where(.astro-RKRDL5K3),
+.banner:where(.astro-RKRDL5K3) :where(.astro-RKRDL5K3) {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
 
 .banner:where(.astro-RKRDL5K3) img:where(.astro-RKRDL5K3) {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: 2
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 2;
 }
 
 .profile:where(.astro-RKRDL5K3) {
-    background: var(--background);
-    color: var(--color);
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom-left-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius)
+  background: var(--background);
+  color: var(--color);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
 .no-banner:where(.astro-RKRDL5K3) .profile:where(.astro-RKRDL5K3) {
-    border-radius: var(--border-radius)
+  border-radius: var(--border-radius);
 }
 
 .avatar:where(.astro-RKRDL5K3) {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    margin: 12px
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin: 12px;
 }
 
 p:where(.astro-RKRDL5K3) {
-    font-family: gg sans,system-ui,sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    text-rendering: optimizeLegibility
+  font-family: gg sans, system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
 }
 
 svg:where(.astro-RKRDL5K3) {
-    width: 20px;
-    height: 16px;
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    filter: brightness(.8)
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  filter: brightness(0.8);
 }

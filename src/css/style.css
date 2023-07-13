@@ -34,6 +34,17 @@ body {
   --color-text: #ffffff;
   --color-footer: #494949;
 }
+
+.darkmode {
+  --color-background: #787a7a;
+  --color-main: #202225;
+  --color-secondary: #9ca0a3;
+  --color-1: #6f7275;
+  --color-2: #6f7275;
+  --color-text-secondary: #aaaaaa;
+  --color-text: #ffffff;
+  --color-footer: #6f7275;
+}
 ::selection {
   color: #82c2f7;
   background: #ffffff;
