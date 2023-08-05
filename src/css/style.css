@@ -164,4 +164,8 @@ h4 {
   .embed-zygote {
     opacity: 1;
   }
+
+  .embed-zygote {
+    margin-bottom: 20px;
+  }
 }
