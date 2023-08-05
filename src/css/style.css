@@ -1,17 +1,25 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 body {
   /* background-color: #280d1b; */
+  margin-top: 90px;
   background-color: #22051e;
   color: transparent;
   font-family: "Victor Mono";
   justify-content: center;
-  height: 90vh;
   align-items: center;
   display: flex;
   white-space: normal;
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  overflow: hidden;
 }
 
 .container {
@@ -163,6 +171,8 @@ h4 {
 @media (max-width: 768px) {
   body {
     overflow: auto;
+    height: 110vh;
+    margin: auto;
   }
   .pfp {
     margin-top: 200%;

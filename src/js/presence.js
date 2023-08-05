@@ -24,7 +24,7 @@ async function getPresence() {
         statusIcon.src = "../../img/statuses/offline.png";
     }
   } catch (error) {
-    console.error(err);
+    console.error(error);
   }
 }
 
