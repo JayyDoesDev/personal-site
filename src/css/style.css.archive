@@ -1,0 +1,225 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  background: radial-gradient(
+      circle,
+      transparent 25%,
+      var(--color-background) 26%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 46%,
+      var(--color-main) 47%,
+      var(--color-main) 52%,
+      transparent 53%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 46%,
+      var(--color-main) 47%,
+      var(--color-main) 52%,
+      transparent 53%
+    );
+  background-size: 3em 3em;
+  background-color: var(--color-background);
+  opacity: 1;
+  padding-top: 3.73%;
+}
+:root {
+  --color-background: #101112;
+  --color-main: #202225;
+  --color-secondary: #2b262b;
+  --color-1: #2b2d31;
+  --color-2: #36373b;
+  --color-text-secondary: #aaaaaa;
+  --color-text: #ffffff;
+  --color-footer: #494949;
+}
+
+.darkmode {
+  --color-background: #787a7a;
+  --color-main: #202225;
+  --color-secondary: #9ca0a3;
+  --color-1: #6f7275;
+  --color-2: #6f7275;
+  --color-text-secondary: #aaaaaa;
+  --color-text: #ffffff;
+  --color-footer: #6f7275;
+}
+::selection {
+  color: #82c2f7;
+  background: #ffffff;
+}
+.main {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background: var(--color-main);
+  color: #fff;
+  border-radius: 30px;
+  margin: auto;
+  max-width: 800px;
+  text-align: left;
+}
+.header {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header iframe {
+  float: left;
+  padding-right: 10px;
+}
+
+.text {
+  overflow: hidden;
+  margin: auto;
+  text-align: left;
+  font-size: 25px;
+  float: left;
+}
+.btns {
+  margin: auto;
+  width: 90%;
+}
+.text-2,
+.text-3 {
+  color: var(--color-text-secondary);
+  transition: 0.1s ease-in-out;
+}
+.text-2:hover {
+  color: #7289da;
+}
+.text-3:hover {
+  color: white;
+}
+.text-3 {
+  margin: 0 5px;
+}
+.section2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: var(--color-1);
+  color: var(--color-text);
+  border-radius: 20px;
+  margin: 10px auto;
+  width: 90%;
+  text-align: left;
+}
+.section2-text {
+  margin: auto;
+  width: 90%;
+}
+.section2 .section2-text .antibotbutton,
+.zygotebutton {
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid var(--color-secondary);
+  display: inline-block;
+  cursor: pointer;
+  color: var(--color-text);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  background: var(--color-secondary);
+  position: relative;
+  margin: auto;
+  transition: 0.1s ease-in-out;
+}
+
+.section2 .section2-text .antibotbutton:hover,
+.zygotebutton:hover {
+  color: var(--color-text);
+  background: var(--color-2);
+  text-shadow: var(--color-2);
+  border: 1px solid var(--color-2);
+}
+.section2 .section2-text .antibotbutton:active,
+.zygotebutton:active {
+  position: relative;
+  top: 1px;
+}
+
+.antibot,
+.zygote {
+  margin: auto;
+  padding-top: 7px;
+  font-size: 30px;
+}
+.section2-text img {
+  overflow: hidden;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+}
+.antibot-desc,
+.zygote-desc {
+  font-size: 17px;
+}
+
+.footer {
+  color: var(--color-footer);
+  text-align: center;
+  margin: auto;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  transition: 0.1s ease-in-out;
+}
+.footer a:hover {
+  color: #82c2f7;
+}
+
+@media (max-width: 560px) {
+  .header iframe {
+    padding-bottom: 10px;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .btns {
+    margin-bottom: 1opx;
+  }
+}
+
+#rainbow {
+  background: linear-gradient(
+    to right,
+    #e3e3ff,
+    #dff2fd,
+    #e2fce6,
+    #fcfade,
+    #ffeee2
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 3s infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
