@@ -156,6 +156,8 @@ h4 {
   bottom: 10px;
   left: 95px;
   z-index: 1;
+  background-color: black;
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
