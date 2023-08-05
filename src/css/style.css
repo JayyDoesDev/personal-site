@@ -37,6 +37,7 @@ h4 {
 
 .links {
   color: #cb71bb;
+  transition: 0.2s;
 }
 
 .links:hover {
@@ -47,19 +48,26 @@ h4 {
   border-style: solid;
   border-left: 600px solid #cb71bb;
   border-radius: 7px;
-  background-color: #2f3136;
+  background-color: #3c1f39;
   border-width: medium;
-  padding: 9px;
+  padding: 10px;
+  padding-bottom: 0%;
 }
 
 .embed-anti {
   border-style: solid;
   border-left: 600px solid rgb(54, 36, 255);
   border-radius: 7px;
-  background-color: #2f3136;
+  background-color: rgb(20, 15, 75);
+  opacity: 0.5;
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
+  transition: 0.3s;
+}
+
+.embed-anti:hover {
+  opacity: 1;
 }
 
 .embed-pizza {
@@ -67,10 +75,16 @@ h4 {
   border-style: solid;
   border-left: 600px solid #7289da;
   border-radius: 7px;
-  background-color: #2f3136;
+  background-color: #333d61;
+  opacity: 0.5;
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
+  transition: 0.3s;
+}
+
+.embed-pizza:hover {
+  opacity: 1;
 }
 
 .embed-zygote {
@@ -78,10 +92,16 @@ h4 {
   border-style: solid;
   border-left: 600px solid #c057f9;
   border-radius: 7px;
-  background-color: #2f3136;
+  background-color: #5a2875;
+  opacity: 0.5;
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
+  transition: 0.3s;
+}
+
+.embed-zygote:hover {
+  opacity: 1;
 }
 
 .corner-pic {
@@ -130,5 +150,11 @@ h4 {
 
   .corner-pic {
     display: none;
+  }
+
+  .embed-pizza,
+  .embed-anti,
+  .embed-zygote {
+    opacity: 1;
   }
 }
