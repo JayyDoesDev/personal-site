@@ -136,11 +136,29 @@ h4 {
   }
 }
 
+.pfp-container {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
 .pfp {
   width: 128px;
   height: 130px;
   border-radius: 100%;
   border: 4px solid #cb71bb;
+}
+
+#status {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #23272a;
+  bottom: 10px;
+  left: 95px;
+  border: 2px solid transparent;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
