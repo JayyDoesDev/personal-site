@@ -172,10 +172,9 @@ h4 {
   body {
     overflow: auto;
     height: 110vh;
-    margin: auto;
   }
   .pfp {
-    margin-top: 200%;
+    margin-top: 300%;
   }
   #mb {
     /*   display: inline-flexbox; */
