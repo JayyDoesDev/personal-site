@@ -9,7 +9,7 @@ body {
 
 body {
   /* background-color: #280d1b; */
-  margin-top: 90px;
+  margin-top: 40px;
   background-color: #22051e;
   color: transparent;
   font-family: "Victor Mono";
@@ -172,6 +172,7 @@ h4 {
   body {
     overflow: auto;
     height: 110vh;
+    margin-top: 60px;
   }
   .pfp {
     margin-top: 220%;
