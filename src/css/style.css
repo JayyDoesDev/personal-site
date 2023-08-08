@@ -10,7 +10,8 @@ body {
 body {
   /* background-color: #280d1b; */
   margin-top: 40px;
-  background-color: #22051e;
+  /*  background-color: #22051e; */
+  background-color: #090108;
   color: transparent;
   font-family: "Victor Mono";
   justify-content: center;
@@ -110,6 +111,23 @@ h4 {
 }
 
 .embed-zygote:hover {
+  opacity: 1;
+}
+
+.embed-duc {
+  margin-top: 7px;
+  border-style: solid;
+  border-left: 600px solid rgb(252, 206, 213);
+  border-radius: 7px;
+  background-color: rgb(200, 149, 158);
+  opacity: 0.5;
+  border-width: medium;
+  padding: 10px;
+  padding-bottom: 0%;
+  transition: 0.3s;
+}
+
+.embed-duc:hover {
   opacity: 1;
 }
 
