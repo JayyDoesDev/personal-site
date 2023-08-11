@@ -1,0 +1,6 @@
+{
+    "watchFolder": "less",
+    "outputFolder": "css",
+    "mainFile": "style.less",
+    "plugins": "less-plugin-clean-css"
+}

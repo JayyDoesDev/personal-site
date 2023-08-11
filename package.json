@@ -1,0 +1,15 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "repository": "https://github.com/JayyDoesDev/personal-site.git",
+  "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "less": "less-watch-compiler"
+  },
+  "dependencies": {
+    "less": "^4.2.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
