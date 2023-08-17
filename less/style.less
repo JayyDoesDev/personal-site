@@ -3,6 +3,7 @@
 @mainFont: "Victor Mono";
 @clickableColor: rgb(20, 161, 254);
 @mainPink: #cb71bb;
+@embedTransition: 0.7s;
 @embedHoverOpacity: 1;
 @antiEmbedColor: rgb(20, 15, 75);
 @antiEmbedBorderColor: rgb(54, 36, 255);
@@ -67,7 +68,7 @@ h4 {
 
 .links {
   color: @mainPink;
-  transition: 0.2s;
+  transition: 0.4s;
   &:hover {
     color: rgba(247, 245, 245, 0.748);
   }
@@ -92,7 +93,7 @@ h4 {
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
-  transition: 0.3s;
+  transition: @embedTransition;
   &:hover {
     opacity: @embedHoverOpacity;
   }
@@ -111,7 +112,7 @@ h4 {
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
-  transition: 0.3s;
+  transition: @embedTransition;
   &:hover {
     opacity: @embedHoverOpacity;
   }
@@ -130,7 +131,7 @@ h4 {
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
-  transition: 0.3s;
+  transition: @embedTransition;
   &:hover {
     opacity: @embedHoverOpacity;
   }
@@ -149,7 +150,7 @@ h4 {
   border-width: medium;
   padding: 10px;
   padding-bottom: 0%;
-  transition: 0.3s;
+  transition: @embedTransition;
   &:hover {
     opacity: @embedHoverOpacity;
   }
