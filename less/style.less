@@ -11,6 +11,8 @@
 @pizzaEmbedBorderColor: #7289da;
 @zygoteEmbedColor: #1db954;
 @zygoteEmbedBorderColor: #85ffb0;
+@altdetectorEmbedColor: #202e5c;
+@altdetectorBorderColor: rgb(87, 116, 222);
 @ducEmbedColor: rgb(200, 149, 158);
 @ducEmbedBorderColor: rgb(252, 206, 213);
 
@@ -127,6 +129,25 @@ h4 {
   border-left: 600px solid @zygoteEmbedBorderColor;
   border-radius: 7px;
   background-color: @zygoteEmbedColor;
+  opacity: 0.5;
+  border-width: medium;
+  padding: 10px;
+  padding-bottom: 0%;
+  transition: @embedTransition;
+  &:hover {
+    opacity: @embedHoverOpacity;
+  }
+  @media (max-width: 768px) {
+    opacity: @embedHoverOpacity;
+  }
+}
+
+.embed-alt {
+  margin-top: 7px;
+  border-style: solid;
+  border-left: 600px solid @altdetectorBorderColor;
+  border-radius: 7px;
+  background-color: @altdetectorEmbedColor;
   opacity: 0.5;
   border-width: medium;
   padding: 10px;
