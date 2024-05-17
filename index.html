@@ -2,57 +2,70 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>🥤 tarab1te</title>
-    <meta name="description" content="real" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tarab1te</title>
+    <meta name="description" content="Some website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
+
 <body>
     <div id="particles"></div>
     <div class="container">
-        <div class="name">
-            <h3>tarab1te</h3>
-            <img src="./img/statuses/offline.png" alt="" width="50px" id="status">
+        <div class="items">
+            <img src="/img/kel.jpg" alt="pfp" class="pfp" width="130px">
+            <h1 class="name">tarab1te</h1>
+            <div class="badges">
+                <img src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png" alt=""
+                    class="badge">
+                <img src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png" alt=""
+                    class="badge">
+                <img src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png" alt=""
+                    aria-hidden="true" class="badge">
+                <img src="https://cdn.discordapp.com/badge-icons/ec92202290b48d0879b7413d2dde3bab.png" alt=""
+                    class="badge">
+                <img src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png" alt=""
+                    class="badge">
+            </div>
+            <img src="/img/statuses/offline.png" alt="status" id="status">
         </div>
-        <div class="boxes">
-            <div class="box">
-                <p>about</p>
-                <p class="about-desc">
-                    Hello, I'm tarab1te! I'm a backend dev just playing around
-                    with code!
-                </p>
-            </div>
-            <div class="projects">
-                <div class="project" style="border-left-color: blue; border-left-width: 5px">
-                    <a href="https://antibot.xyz"><p class="project-name">Anti-Bot (1.5k)</p></a>
-                    <p>A verified Discord bot with auto moderation, auto responders, tags and more.</p>
-                </div>
-                <div class="project" style="border-left-color: rgb(87, 116, 222); border-left-width: 5px">
-                    <a href="https://discord.com/oauth2/authorize?client_id=819050202508820491&permissions=201452678&scope=bot%20applications.commands"><p class="project-name">Alt Detector (1.3k)</p></a>
-                    <p>A verified Discord bot with suspicious account detection with join dates!</p>
-                </div>
-            </div>
-            <div class="project" style="border-left-color: #7289da; border-left-width: 5px">
-                <p class="project-name">Pizza (232)</p>
-                <p>A verified Discord bot with moderation</p>
-            </div>
-            <div class="project" style="border-left-color: #85ffb0; border-left-width: 5px">
-                <a href="https://zyte.cloud"><p class="project-name">Zygote (131)</p></a>
-                <p>A verified Discord bot made for shortening urls!</p>
-            </div>
-            <div class="project" style="border-left-color: rgb(252, 206, 213); border-left-width: 5px">
-                <a href="https://duc.jddev.wtf"><p class="project-name">Discord User Checker</p></a>
-                <p>A website used to check Discord profiles!</p>
-            </div>
+        <h3 class="label">backend dev</h3>
+        <h1 class="about-title">about me</h1>
+        <div class="about-me">
+            <p style="text-align: left;">I watch anime, play games, talk to friends, code, and stay way from grass. oh
+                and btw you should watch 86, i like that anime.</p>
         </div>
-        <footer>
-            <a href="https://github.com/JayyDoesDev"><i class="bi bi-github"></i></a><a href="https://discord.com/users/419958345487745035"></i><i class="bi bi-discord"></i></a>
-        </footer>
-    </div>
+        <h1 style="text-align: left;  margin-top: 10px;">projects</h1>
+        <div class="projects">
+            <a href="https://antibot.xyz" class="tooltip"><img src="/img/anti-bot.png" alt="anti-bot" width="60px"
+                    class="project">
+                <span class="tooltiptext">Anti-Bot</span>
+            </a>
+            <a href="https://alt-detector.tb1.pw" class="tooltip">
+                <img src="/img/altdetector.webp" alt="alt-detector" width="60px" class="project">
+                <span class="tooltiptext">Alt-Detector</span>
+            </a>
+            <a href="https://zyte.cloud" class="tooltip">
+                <img src="https://zyte.cloud/src/img/animezygote.png" alt="" width="60px" class="project">
+                <span class="tooltiptext">Zygote</span>
+            </a>
+            <a href="" class="tooltip">
+                <img src="/img/pizza.jpg" alt="" width="60px" class="project">
+                <span class="tooltiptext">Pizza</span>
+            </a>
+        </div>
+        <div class="icons">
+            <a href="https://github.com/JayyDoesDev" style="color: white;"><i class="bi bi-github github"></i></a>
+        </div>
     </div>
 </body>
-        <script src="./js/presence.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript" src="js/particles.js"></script>
+<script src="/js/presence.js"></script>
+<script src="/js/music.js"></script>
+
+
 </html>
