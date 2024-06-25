@@ -5,62 +5,75 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tarab1te</title>
-    <meta name="description" content="Some website.">
+    <meta name="theme-color" content="#ef83a2">
+    <meta name="description" content="Some website I made idk">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 </head>
 
 <body>
-    <div id="particles"></div>
+    <nav>
+        <ul>
+            <i class="bi bi-list" onclick="hamburger()"></i>
+            <li><a href="index.html">home</a></li>
+            <li><a href="https://github.com/Jayydoesdev">github</a></li>
+            <li><a href="#projects">projects</a></li>
+        </ul>
+    </nav>
     <div class="container">
-        <div class="items">
-            <img src="/img/kel.jpg" alt="pfp" class="pfp" width="130px">
-            <h1 class="name">tarab1te</h1>
-            <div class="badges">
-                <img src="/img/badges/balance.png" alt="balance" class="badge">
-                <img src="/img/badges/activedev.png" alt="activedev" class="badge">
-                <img src="/img/badges/nitro.png" alt="nitro" class="badge">
-                <img src="/img/badges/boost.png" alt="boost" class="badge">
-                <img src="/img/badges/quest.png" alt="quest" class="badge">
+        <div class="hamburger">
+            <li><a href="index.html">home</a></li>
+            <li><a href="https://github.com/Jayydoesdev">github</a></li>
+            <li><a href="#projects">projects</a></li>
+        </div>
+        <div class="intro">
+            <h1>hi, i'm tarab1te <img src="/img/statuses/online.png" alt="status" id="status"></h1>
+            <h2>hi, i code things and watch anime some times (i break everything i touch)</h2>
+        </div>
+        <div class="projects-container">
+            <h1 class="title">projects</h1>
+            <div class="projects" id="projects">
+                <div class="project">
+                    <h1 class="project-title">Anti-Bot</h1>
+                    <h1 class="project-description">
+                        Anti-Bot is an Advanced AutoMod Discord Bot with features like tags, auto responders, tickets,
+                        and configuration. Trusted by over 1600 servers, We aim to support your server with a powerful
+                        Discord bot.</h1>
+                    <div class="buttons">
+                        <a href="https://github.com/antibot-team" class="button">Github</a>
+                        <a href="https://antibot.xyz" class="button">Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h1 class="project-title">Alt Detector</h1>
+                    <h1 class="project-description">
+                        Alt Detector allows you to set days limits on user accounts that have to be for joining the
+                        server.</h1>
+                    <div class="buttons">
+                        <a href="https://alt-detector.tb1.pw" class="button">Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h1 class="project-title">Zygote</h1>
+                    <h1 class="project-description">
+                        Alt Detector allows you to set days limits on user accounts that have to be for joining the
+                        server.</h1>
+                    <div class="buttons">
+                        <a href="https://zyte.cloud" class="button">Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h1 class="project-title">Pizza</h1>
+                    <h1 class="project-description">
+                        An advanced moderation Discord bot.</h1>
+                </div>
             </div>
-            <img src="/img/statuses/offline.png" alt="status" id="status">
         </div>
-        <h3 class="label">backend dev</h3>
-        <h1 class="about-title">about me</h1>
-        <div class="about-me">
-            <p style="text-align: left;">I watch anime, play games, talk to friends, code, and stay way from grass. oh
-                and btw you should watch 86, i like that anime.</p>
-        </div>
-        <h1 style="text-align: left;  margin-top: 10px;">projects</h1>
-        <div class="projects">
-            <a href="https://antibot.xyz" class="tooltip"><img src="/img/anti-bot.png" alt="anti-bot" width="60px"
-                    class="project">
-                <span class="tooltiptext">Anti-Bot</span>
-            </a>
-            <a href="https://alt-detector.tb1.pw" class="tooltip">
-                <img src="/img/altdetector.webp" alt="alt-detector" width="60px" class="project">
-                <span class="tooltiptext">Alt-Detector</span>
-            </a>
-            <a href="https://zyte.cloud" class="tooltip">
-                <img src="https://zyte.cloud/src/img/animezygote.png" alt="" width="60px" class="project">
-                <span class="tooltiptext">Zygote</span>
-            </a>
-            <a href="" class="tooltip">
-                <img src="/img/pizza.jpg" alt="" width="60px" class="project">
-                <span class="tooltiptext">Pizza</span>
-            </a>
-        </div>
-        <div class="icons">
-            <a href="https://github.com/JayyDoesDev" style="color: white;"><i class="bi bi-github github"></i></a>
-        </div>
+        <footer>made with ❤️ by tarab1te • <span><a href="">source code</a></span></footer>
     </div>
+    <script src="js/presence.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script type="text/javascript" src="js/particles.js"></script>
-<script src="/js/presence.js"></script>
-<script src="/js/music.js"></script>
-
 
 </html>
