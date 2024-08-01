@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-@backgroundColor: #191724;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@backgroundColor:#000;
 @defaultTransition: 0.2s;
-@navBarColor: #14121c;
-@textColor: #ef83a2;
-@textHoverColor: #b4637a;
-@projectTextColor: #e0def4;
-@projectBoxColor: #252334;
-@projectBoxHoverColor: #2f2d41;
-@buttonColor: #312e44;
-@buttonHoverColor: #3c3852;
+@navBarColor: #000;
+@navBarBorderColor: #2E2E2E;
+@textColor: #EDEDED;
+@textHoverColor: #A1A1A1;
+@projectTextColor: #EDEDED;
+@projectBoxColor: #0A0A0A;
+@projectBorderColor: @navBarBorderColor;
+@projectBoxHoverColor: #1F1F1F;
+@buttonColor: #28151D;
+@buttonTextColor: #B31A57;
+@buttonHoverColor: #6C1E3E;
+@buttonTextHoverColor: #F75F8F;
 @mediaSize: 816px;
 
 ::-webkit-scrollbar {
@@ -17,22 +21,23 @@
 
 body {
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: Poppins;
     background: @backgroundColor;
     .button {
         font-size: 24px;
         padding: 10px;
         margin: 5px;
         background-color: @buttonColor;
-        color: @projectTextColor;
+        color: @buttonTextColor;
         border-color: transparent;
         border-radius: 12px;
-        border-width: 4.7px;
+        border-width: px;
         border-style: solid;
         transition: @defaultTransition;
         text-decoration: none;
         &:hover {
             background-color: @buttonHoverColor;
+            color: @buttonTextHoverColor;
         }
     }
 
@@ -45,9 +50,11 @@ body {
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background-color: @navBarColor;
-    border-width: 8px;
+    border-width: 100%;
+    border-bottom-color: @navBarBorderColor;
+    border-style: solid;
     width: 100%;
     padding: 24px 0;
     font-size: 35px;
@@ -65,7 +72,7 @@ nav {
     }
 
     a {
-        padding: 1px;
+        padding: 11px;
         border-radius: 10px;
         color: @textColor;
         text-decoration: none;
@@ -87,9 +94,18 @@ nav {
     .hamburger { display: none; }
     .intro {
         margin-top: 10rem;
+        .pfp { 
+            width: 200px; 
+            border-radius: 100%; 
+            border-style: solid;
+            border-width: 5px;
+            transition: 0.5s;
+            &:hover { transform: scale(1.2); }
+        }
+        #status { transition: 0.5s; &:hover { transform: scale(1.2); } }
         h1 { font-size: 70px; }
         h2 { margin-top: -50px;}
-        img { width: 50px; vertical-align: middle;}
+        img { width: 50px; vertical-align: middle; }
     }
     footer {
         font-size: 20px;
@@ -118,7 +134,8 @@ nav {
             background-color: @projectBoxColor;
             padding: 20px;
             border-radius: 20px;
-            border-style: none;
+            border-style: solid;
+            border-color: #2E2E2E;
             border-width: 1px;
             margin: 10px;
             word-wrap: break-word;
