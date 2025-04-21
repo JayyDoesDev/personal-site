@@ -5,24 +5,24 @@ async function getPresence() {
     );
     var res = await fetched.json();
     var status = res.presence.status;
-    var statusIcon = document.getElementById("status");
-    console.log(statusIcon.src)
-    console.log(status)
+    var statusIcon = document.getElementsByClassName("status");
+    console.log(statusIcon[0].src);
+    console.log(status);
     switch (status) {
       case "online":
-        statusIcon.src = "/img/statuses/online.png";
+        statusIcon[0].src = "/img/statuses/online.png";
         break;
       case "idle":
-        statusIcon.src = "/img/statuses/idle.png";
+        statusIcon[0].src = "/img/statuses/idle.png";
         break;
       case "dnd":
-        statusIcon.src = "/img/statuses/dnd.png";
+        statusIcon[0].src = "/img/statuses/dnd.png";
         break;
       case "streaming":
-        statusIcon.src = "/img/statuses/streaming.png";
+        statusIcon[0].src = "/img/statuses/streaming.png";
         break;
       default:
-        statusIcon.src = "/img/statuses/offline.png";
+        statusIcon[0].src = "/img/statuses/offline.png";
     }
   } catch (error) {
     console.error(error);

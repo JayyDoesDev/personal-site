@@ -1,6 +1,7 @@
-# this is my website!
-## cool website ik frfr
+# My personal website 
 
- And yes, i know. I suck at frontend
+# Showcase
+ ![showcase](https://github.com/JayyDoesDev/personal-site/blob/main/.github/assets/site.png?raw=true)
 
- ![logo](https://github.com/JayyDoesDev/personal-site/blob/main/.github/assets/site.png?raw=true)
+# Darkmode showcase
+ ![showcase](https://github.com/JayyDoesDev/personal-site/blob/main/.github/assets/site-darkmode.png?raw=true)

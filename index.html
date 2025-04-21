@@ -5,85 +5,76 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tarab1te</title>
-    <meta name="theme-color" content="#2F3136">
-    <meta name="description" content="Some website I made idk">
+    <meta name="description" content="My awesome personal website!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script defer src="js/theme.js"></script>
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <i class="bi bi-list" onclick="hamburger()"></i>
-            <li><a href="index.html"><i class="bi bi-house-door-fill"></i> home</a></li>
-            <li><a href="https://github.com/Jayydoesdev"><i class="bi bi-github"></i> github</a></li>
-            <li><a href="#projects"><i class="bi bi-tools"></i> projects</a></li>
-        </ul>
-    </nav>
+<body class="light-mode">
+    <button id="theme-toggle" class="theme-toggle">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
     <div class="container">
-        <div class="hamburger">
-            <li><a href="index.html">home</a></li>
-            <li><a href="https://github.com/Jayydoesdev">github</a></li>
-            <li><a href="#projects">projects</a></li>
+        <div class="profile-pic">
+            <img src="/img/frieren-pfp.jpg" alt="Profile Picture" loading="eager">
         </div>
-        <div class="intro">
-            <img src="/img/pfp.gif" alt="pfp" class="pfp">
-            <h1>hi, i'm tarab1te <img src="/img/statuses/online.png" alt="status" id="status"></h1>
-            <h2>i code things and watch anime some times (i break everything i touch)</h2>
+        <h1 class="name">Tarab1te</h1>
+        <div class="description">
+            <h2>just coding and watching anime</h2>
         </div>
-        <div class="projects-container">
-            <h1 class="title">projects</h1>
-            <div class="projects" id="projects">
-                <div class="project">
-                    <h1 class="project-title">Anti-Bot</h1>
-                    <h1 class="project-description">
-                        Anti-Bot is an Advanced AutoMod Discord Bot with features like tags, auto responders, tickets,
-                        and configuration. Trusted by over 1600 servers, We aim to support your server with a powerful
-                        Discord bot.</h1>
-                    <div class="buttons">
-                        <a href="https://github.com/antibot-team" class="button">Github</a>
-                        <a href="https://antibot.xyz" class="button">Website</a>
-                    </div>
-                </div>
-                <div class="project">
-                    <h1 class="project-title">Alt Detector</h1>
-                    <h1 class="project-description">
-                        Alt Detector allows you to set days limits on user accounts that have to be for joining the
-                        server.</h1>
-                    <div class="buttons">
-                        <a href="https://alt-detector.tb1.pw" class="button">Website</a>
-                    </div>
-                </div>
-                <div class="project">
-                    <h1 class="project-title">Zygote</h1>
-                    <h1 class="project-description">
-                        A Discord bot for url shortening.</h1>
-                    <div class="buttons">
-                        <a href="https://zyte.cloud" class="button">Website</a>
-                    </div>
-                </div>
-                <div class="project">
-                    <h1 class="project-title">Pizza</h1>
-                    <h1 class="project-description">
-                        An advanced moderation Discord bot.</h1>
-                </div>
-                <div class="project">
-                    <h1 class="project-title">Jasper</h1>
-                    <h1 class="project-description">
-                        An open source Discord bot for tag management.
-                    </h1>
-                    <div class="buttons">
-                        <a href="https://github.com/JayyDoesDev/jasper" class="button">Github</a>
-                    </div>
-                </div>
+        <div class="box">
+            <h2>About Me</h2>
+            <p>I'm a computer science student with a passion for coding and anime. I tinker with mainly backend. I'm
+                a trumpet player, basketball player, and developer! I enjoy hanging out with friends and making new
+                ones! Stay positive!</p>
+        </div>
+        <div class="box">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Visited Salesforce, toured the building, and was introduced to the day to day operations at
+                    Salesforce</li>
+                <li>Contributed and work on many projects for thousands of users</li>
+                <li>Developed and still developing an app to help teachers with content mangement</li>
+                <li>Club Officer of the computer science club at my school to help promote computer science</li>
+                <li>Scaled and combined with multiple Discord bots to over 4,000 clients and over 1.3 million standing
+                    users</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="box">
+            <h2>Discord Status: <img class="status" src="/img/statuses/offline.png" alt="Discord status" loading="lazy">
+            </h2>
+        </div>
+        <div class="box">
+            <h2>Contact Me</h2>
+            <p>If you want to reach out, feel free to contact me on Discord!</p>
+        </div>
+        <div class="box">
+            <h2>Projects</h2>
+            <div class="items project-items">
+                <a href="https://antibot.xyz"><img src="/img/anti-bot.png" alt="anti-bot"></a>
+                <a href="https://alt-detector.tb1.pw"><img src="/img/altdetector.webp" alt="alt-detector"></a>
+                <a href="https://github.com/JayyDoesDev/jasper"><img
+                        src="https://github.com/JayyDoesDev/jasper/blob/main/.github/assets/jasper.png?raw=true"
+                        alt="jasper"></a>
+                <a href=""><img src="/img/zygote.png" alt="Zygote"></a>
+                <a href="https://vultrex.dev"><img src="https://avatars.githubusercontent.com/u/84299599?s=200&v=4"
+                        alt="vultrex"></a>
             </div>
         </div>
-        <footer>made with ❤️ by tarab1te • <span><a href="https://github.com/JayyDoesDev/personal-site">source
-                    code</a></span></footer>
+        <div class="box">
+            <h2>Links</h2>
+            <div class="items">
+                <a href="https://github.com/JayyDoesDev"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
     </div>
     <script src="js/presence.js"></script>
-    <script src="js/hamburger.js"></script>
+    <script src="js/particles.js"></script>
 </body>
 
 </html>
