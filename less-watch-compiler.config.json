@@ -1,5 +1,0 @@
-{
-    "watchFolder": "less",
-    "outputFolder": "css",
-    "plugins": "less-plugin-clean-css"
-}
