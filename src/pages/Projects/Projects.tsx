@@ -17,7 +17,7 @@ const projects = [
     description:
       "Anti-Bot is an Advanced AutoMod Discord Bot with features like tags, auto responders, tickets, and configuration. Used by over 2500+ servers and supporting 1M+ users",
     image: antiBotImg,
-    link: "https://antibot.tb1.pw/",
+    link: "https://anti.vdev.bot",
     tags: ["TypeScript", "Mongodb", "Redis"],
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Alt Detector allows you to set days limits on user accounts that have to be for joining the server. Used by over 3000+ servers and supporting 1M+ users ",
     image: altDetectorImg,
-    link: "https://alt-detector.tb1.pw/",
+    link: "https://alt.vdev.bot",
     tags: ["TypeScript", "Mongodb", "Redis", "Next.js"],
   },
   {
