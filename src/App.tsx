@@ -1,22 +1,53 @@
-import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Page from "./components/retroui/Page";
+import "./App.css";
+import "./styles/hose.css";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { useTheme } from "@/lib/theme";
+import { ThemeProvider } from "@/lib/ThemeProvider";
+import { FilmFilters, FilmOverlay } from "@/components/hose/FilmFX";
+import { Clouds } from "@/components/hose/Clouds";
+import { isWebKitOnly } from "@/lib/browser";
+import { Intro } from "@/components/hose/Intro";
+import { Footer, Header } from "@/components/hose/Header";
+import { MusicProvider } from "@/components/music/MusicProvider";
+import { NowPlaying } from "@/components/music/NowPlaying";
 import Home from "./pages/Home/Home";
-import Projects from "./pages/Projects/Projects";
-import Tools from "./pages/Tools/Tools";
+import Stats from "./pages/Stats/Stats";
 
-function App() {
+const lite = isWebKitOnly();
+
+function Stage() {
+  const { theme } = useTheme();
+
   return (
-    <BrowserRouter>
-      <Page>
+    <div className={`hose-root hose-${theme}${lite ? " hose-lite" : ""}`}>
+      <FilmFilters lite={lite} />
+      <FilmOverlay />
+      <Clouds />
+      <NowPlaying />
+      <main className="hose-main">
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/tools" element={<Tools />} />
+          <Route path="/stats" element={<Stats />} />
+          <Route path="/projects" element={<Navigate to={{ pathname: "/", hash: "#projects" }} replace />} />
+          <Route path="/tools" element={<Navigate to={{ pathname: "/", hash: "#tools" }} replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-      </Page>
-    </BrowserRouter>
+        <Footer />
+      </main>
+      <Intro />
+    </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <ThemeProvider>
+        <MusicProvider>
+          <Stage />
+        </MusicProvider>
+      </ThemeProvider>
+    </BrowserRouter>
+  );
+}

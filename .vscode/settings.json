@@ -18,5 +18,8 @@
     "liveServer.settings.port": 5501,
     "[less]": {
         "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 }
